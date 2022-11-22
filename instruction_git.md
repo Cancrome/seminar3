@@ -28,3 +28,15 @@
 
     git commit
 
+Чтобы выполнить commit состояния со всеми изменениями в рабочем каталоге нужно ввести:
+
+    git commit -a
+
+Чтобы создать commit с комментарием нужно ввести:
+
+    git commit -m "text"
+
+Объединенные команды git commit -a и git commit -m:
+
+    git commit -am "text"
+
